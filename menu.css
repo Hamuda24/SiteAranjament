@@ -1,0 +1,49 @@
+.bg-hero{
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+	url("https://images.unsplash.com/photo-1555830142-c2872abca63f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+	background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+nav.bg-light{
+    background-color: rgb(255, 255, 255)!important;
+}
+
+
+.navbar-light .navbar-brand {
+    color: rgba(250,0,0,.9);
+}
+
+
+ .navbar-light .navbar-brand:hover{
+    color: rgba(0,200,0,.5);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(252, 252, 252);
+    border-style: inset;
+    border-top-color: lawngreen;
+    border-bottom-color: lightcoral;
+    border-left-color: rgb(255, 38, 0);
+    border-right-style: none;
+    border-bottom-style: none;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-radius: 10px;
+    margin-left: 25px;
+    
+    
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(54, 51, 211, 0.822);
+    border-color: orangered;
+    border-bottom-style: double;
+    border-right-style: double;
+   
+    
+}
+
+

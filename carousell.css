@@ -1,0 +1,50 @@
+div#carousel { 
+  perspective: 800px;  
+  padding-top: 10%; 
+  font-size:0; 
+  margin-bottom: 4rem; 
+
+}
+
+figure#spinner { 
+  transform-style: preserve-3d; 
+  height: 300px; 
+  transform-origin: 50% 50% -500px; 
+  transition: 1.3s; 
+  animation-name: rotire;
+  
+} 
+figure#spinner img { 
+  width: 50%; max-width: 385px; 
+  height: 350px;
+  object-fit: cover;
+  position: absolute; left: 30%;
+  transform-origin: 50% 50% -500px;
+  outline:1px solid transparent; 
+
+  
+}
+
+  
+figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
+}
+figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
+figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
+figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
+figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+
+div#carousel ~ span { 
+  color: rgb(56, 207, 51); 
+  margin: 5%; 
+  display: inline-block; 
+  text-decoration: none; 
+  font-size: 4rem; 
+  transition: 1s color; 
+  position: relative; 
+  margin-top: -11rem; 
+  border-bottom: none; 
+  line-height: 0; }
+div#carousel ~ span:hover { color: #888; cursor: pointer; }
